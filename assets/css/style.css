@@ -1,18 +1,20 @@
 body{
-background-color: aliceblue
+background-color: white;
+
 }
 
 .header{
- width: 960px;
-    background-color: #ebebeb;
+    background-color: white;
     margin: auto;
+    font-family: 'Georgia', Times, Times New Roman, serif;
     margin-bottom: 10px;
+    height: 50px;
     padding: 20px 0px;
 }
 
 .h1{
     border: 20px;
-    background-color: lightseagreen;
+    background-color: #4aaaa5;
     color: white;
     margin: -19px 150px;
     padding: 20px;
@@ -20,3 +22,25 @@ background-color: aliceblue
     height: 48px;
 }
 
+.About{
+    float: left;
+    margin-left: 25%;
+    margin-top: -5px;
+}
+
+.Portfolio{
+    float: left;
+    margin-left: 5%;
+    margin-top: -5px;
+}
+
+.Contact{
+    float: left;
+    margin-left: 5%;
+    margin-top: -5px;
+}
+
+p{
+    color: lightgray;
+
+}
