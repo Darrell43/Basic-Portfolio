@@ -239,3 +239,50 @@ body {
     border: 0 none;
   }
   
+
+  @media only screen and (max-width: 767.98px), (max-width: 575.98px) { 
+
+    nav {
+      float: left;
+      clear: left;
+      width: 100%;
+    }
+
+    #logo {
+      width: 100%;
+      max-width: 100%;
+    }
+
+    p{
+      float: left;
+    }
+
+    .sidebar{
+    float: left;
+    width: 100%;
+    max-width: 100%;
+    padding: 30px;
+    margin-bottom: 20px;
+    background: #fff;
+    border: 1px solid #ddd;
+    }
+
+    .auth-image {
+      float: left;
+      padding-left: 100px;
+      width: 400px;
+      height: 420px;
+  }
+
+  .main-section{
+ 
+    float: left;
+    width: 100%;
+    max-width: 650px;
+    padding: 30px;
+    margin: 0 0 40px;
+    background: #fff;
+    border: 1px solid #ddd;
+  }
+
+  }
